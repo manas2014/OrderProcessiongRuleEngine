@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessingRuleEngine", "OrderProcessingRuleEngine\OrderProcessingRuleEngine.csproj", "{DBC38D09-D0D4-4B0C-8156-4E32CF8102EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingRuleEngine.Tests", "OrderProcessingRuleEngine.Tests\OrderProcessingRuleEngine.Tests.csproj", "{F856BE27-E036-4918-B3A0-9808DE12D6BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC38D09-D0D4-4B0C-8156-4E32CF8102EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC38D09-D0D4-4B0C-8156-4E32CF8102EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC38D09-D0D4-4B0C-8156-4E32CF8102EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC38D09-D0D4-4B0C-8156-4E32CF8102EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F856BE27-E036-4918-B3A0-9808DE12D6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F856BE27-E036-4918-B3A0-9808DE12D6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F856BE27-E036-4918-B3A0-9808DE12D6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F856BE27-E036-4918-B3A0-9808DE12D6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A32949A0-2261-4FEE-9BBE-9DF0691D7450}
+	EndGlobalSection
+EndGlobal
