@@ -208,19 +208,6 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "OrderProcessingRuleEngine.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "OrderProcessingRuleEngine.Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/OrderProcessingRuleEngine.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OrderProcessingRuleEngine.Contracts.dll": {}
-        }
-      },
       "OrderProcessingRuleEngine.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -229,33 +216,6 @@
         },
         "runtime": {
           "bin/placeholder/OrderProcessingRuleEngine.Entities.dll": {}
-        }
-      },
-      "OrderProcessingRuleEngine.Repository/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "OrderProcessingRuleEngine.Contracts": "1.0.0",
-          "OrderProcessingRuleEngine.Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/OrderProcessingRuleEngine.Repository.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OrderProcessingRuleEngine.Repository.dll": {}
-        }
-      },
-      "OrderProcessingRuleEngine.Rules/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "OrderProcessingRuleEngine.Contracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/OrderProcessingRuleEngine.Rules.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OrderProcessingRuleEngine.Rules.dll": {}
         }
       }
     }
@@ -729,34 +689,16 @@
         "netstandard.library.nuspec"
       ]
     },
-    "OrderProcessingRuleEngine.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../OrderProcessingRuleEngine.Contracts/OrderProcessingRuleEngine.Contracts.csproj",
-      "msbuildProject": "../OrderProcessingRuleEngine.Contracts/OrderProcessingRuleEngine.Contracts.csproj"
-    },
     "OrderProcessingRuleEngine.Entities/1.0.0": {
       "type": "project",
       "path": "../OrderProcessingRuleEngine.Entities/OrderProcessingRuleEngine.Entities.csproj",
       "msbuildProject": "../OrderProcessingRuleEngine.Entities/OrderProcessingRuleEngine.Entities.csproj"
-    },
-    "OrderProcessingRuleEngine.Repository/1.0.0": {
-      "type": "project",
-      "path": "../OrderProcessingRuleEngine.Repository/OrderProcessingRuleEngine.Repository.csproj",
-      "msbuildProject": "../OrderProcessingRuleEngine.Repository/OrderProcessingRuleEngine.Repository.csproj"
-    },
-    "OrderProcessingRuleEngine.Rules/1.0.0": {
-      "type": "project",
-      "path": "../OrderProcessingRuleEngine.Rules/OrderProcessingRuleEngine.Rules.csproj",
-      "msbuildProject": "../OrderProcessingRuleEngine.Rules/OrderProcessingRuleEngine.Rules.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NETCore.App >= 2.2.0",
-      "OrderProcessingRuleEngine.Contracts >= 1.0.0",
-      "OrderProcessingRuleEngine.Entities >= 1.0.0",
-      "OrderProcessingRuleEngine.Repository >= 1.0.0",
-      "OrderProcessingRuleEngine.Rules >= 1.0.0"
+      "OrderProcessingRuleEngine.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -766,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.csproj",
-      "projectName": "OrderProcessingRuleEngine",
-      "projectPath": "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.csproj",
+      "projectUniqueName": "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Contracts\\OrderProcessingRuleEngine.Contracts.csproj",
+      "projectName": "OrderProcessingRuleEngine.Contracts",
+      "projectPath": "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Contracts\\OrderProcessingRuleEngine.Contracts.csproj",
       "packagesPath": "C:\\Users\\h288238\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine\\obj\\",
+      "outputPath": "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -801,17 +743,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Contracts\\OrderProcessingRuleEngine.Contracts.csproj": {
-              "projectPath": "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Contracts\\OrderProcessingRuleEngine.Contracts.csproj"
-            },
             "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Entities\\OrderProcessingRuleEngine.Entities.csproj": {
               "projectPath": "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Entities\\OrderProcessingRuleEngine.Entities.csproj"
-            },
-            "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Repository\\OrderProcessingRuleEngine.Repository.csproj": {
-              "projectPath": "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Repository\\OrderProcessingRuleEngine.Repository.csproj"
-            },
-            "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Rules\\OrderProcessingRuleEngine.Rules.csproj": {
-              "projectPath": "C:\\Users\\h288238\\source\\repos\\OrderProcessingRuleEngine\\OrderProcessingRuleEngine.Rules\\OrderProcessingRuleEngine.Rules.csproj"
             }
           }
         }

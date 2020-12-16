@@ -5,7 +5,15 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessingRuleEngine", "OrderProcessingRuleEngine\OrderProcessingRuleEngine.csproj", "{DBC38D09-D0D4-4B0C-8156-4E32CF8102EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingRuleEngine.Tests", "OrderProcessingRuleEngine.Tests\OrderProcessingRuleEngine.Tests.csproj", "{F856BE27-E036-4918-B3A0-9808DE12D6BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessingRuleEngine.Tests", "OrderProcessingRuleEngine.Tests\OrderProcessingRuleEngine.Tests.csproj", "{F856BE27-E036-4918-B3A0-9808DE12D6BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingRuleEngine.Contracts", "OrderProcessingRuleEngine.Contracts\OrderProcessingRuleEngine.Contracts.csproj", "{7C2A8959-877D-416E-8036-CE40A6C11715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingRuleEngine.Repository", "OrderProcessingRuleEngine.Repository\OrderProcessingRuleEngine.Repository.csproj", "{36A20428-7DAA-4400-BA07-BB7D146C99E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingRuleEngine.Entities", "OrderProcessingRuleEngine.Entities\OrderProcessingRuleEngine.Entities.csproj", "{491FC79D-94CD-45E1-BBFC-D4E8DD3F24FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingRuleEngine.Rules", "OrderProcessingRuleEngine.Rules\OrderProcessingRuleEngine.Rules.csproj", "{75355C87-D75A-484E-8DC6-35A7D30EB5FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{F856BE27-E036-4918-B3A0-9808DE12D6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F856BE27-E036-4918-B3A0-9808DE12D6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F856BE27-E036-4918-B3A0-9808DE12D6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2A8959-877D-416E-8036-CE40A6C11715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2A8959-877D-416E-8036-CE40A6C11715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2A8959-877D-416E-8036-CE40A6C11715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2A8959-877D-416E-8036-CE40A6C11715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A20428-7DAA-4400-BA07-BB7D146C99E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A20428-7DAA-4400-BA07-BB7D146C99E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A20428-7DAA-4400-BA07-BB7D146C99E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A20428-7DAA-4400-BA07-BB7D146C99E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491FC79D-94CD-45E1-BBFC-D4E8DD3F24FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491FC79D-94CD-45E1-BBFC-D4E8DD3F24FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491FC79D-94CD-45E1-BBFC-D4E8DD3F24FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491FC79D-94CD-45E1-BBFC-D4E8DD3F24FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75355C87-D75A-484E-8DC6-35A7D30EB5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75355C87-D75A-484E-8DC6-35A7D30EB5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75355C87-D75A-484E-8DC6-35A7D30EB5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75355C87-D75A-484E-8DC6-35A7D30EB5FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
